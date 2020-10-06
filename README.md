@@ -1,1 +1,2 @@
 # harry
+run bin/start
