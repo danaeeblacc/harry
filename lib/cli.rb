@@ -27,7 +27,6 @@ class CLI
             if inp == 'list'
                 print_spell(spell)
                 inp = gets.strip.downcase
-                #binding.pry
             elsif inp == "exit"
                 puts "goodbye"
             else
@@ -37,7 +36,6 @@ class CLI
                 puts spe.effect
                 puts "_______________________________"
                 inp = gets.strip.downcase
-                #spell = Spell.find_by_effect(@effect)[inp.to_i-1]
             end
             puts "Goodbye!"
             end
@@ -52,11 +50,5 @@ class CLI
         end
     end
 
-    # def find_by_effect(effect)
-    #     Spell.all.find do |e|
-    #         binding.pry
-    #     end
 
-        
-    # end
 end
