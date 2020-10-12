@@ -6,7 +6,7 @@ class CLI
     attr_accessor :effect
     def start 
         puts ""
-        puts "Welcome to the Hogwards Witchcraft and Wizadry Spell-casting Tournament!"
+        puts "Welcome to the Hogwards Witchcraft and Wizadry Spell Book"
         puts ""
         puts " Search your desired spells by entering an effect"
         puts ""
@@ -28,16 +28,23 @@ class CLI
                 print_spell(spell)
                 inp = gets.strip.downcase
             elsif inp == "exit"
-                puts "goodbye"
+                puts "goodbye, well met. See you soon!"
             else
                 spe = Spell.all[inp.to_i-1]
-                puts "_______________________________"
+                puts "〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰"
                 puts spe.name
+                puts ""
+                puts "📖 Spell type :"
+                puts spe.type
+                puts ""
+                puts "🔮 Spell effect :"
                 puts spe.effect
-                puts "_______________________________"
+                puts "〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰"
                 inp = gets.strip.downcase
             end
-            puts "Goodbye!"
+            puts ""
+            puts " Well met, goodbye for now. See you soon! ✨ 🧙 ✨ "
+            puts ""
             end
     end
 
