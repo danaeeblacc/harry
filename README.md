@@ -1,9 +1,9 @@
 # harry
 run bin/start
 
-Project name: HARRY POTTER WITCHCRAFT AND WIZADRY SPELL BOOK
+Project name: THE HOGWARTS WITCHCRAFT AND WIZARDRY SPELL BOOK
 
-Description: The HARRY POTTER WITCHCRAFT AND WIZADRY SPELL BOOK accesses spells, their type and their effect to the user that desires them .
+Description: The HOGWARTS WITCHCRAFT AND WIZARDRY SPELL BOOK accesses spells, their type and their effect to the user that desires them .
 
 Installation: Installation is the next section in an effective README. Tell other users how to install your project locally. Optionally, include a gif to make the process even more clear for other people.
 
@@ -12,7 +12,7 @@ As demonstrated below :
 
 ruby bin/start
 
-Welcome to the Hogwards Witchcraft and Wizadry Spell Book
+Welcome to The Hogwarts Witchcraft and Wizardry Spell Book
 
  Search your desired spells by entering an effect
 

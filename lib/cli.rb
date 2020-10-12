@@ -6,7 +6,7 @@ class CLI
     attr_accessor :effect
     def start 
         puts ""
-        puts "Welcome to the Hogwards Witchcraft and Wizadry Spell Book"
+        puts "Welcome to the Hogwarts Witchcraft and Wizardry Spell Book"
         puts ""
         puts " Search your desired spells by entering an effect"
         puts ""
