@@ -8,7 +8,7 @@ class CLI
         puts ""
         puts "Welcome to the Hogwarts Witchcraft and Wizardry Spell Book"
         puts ""
-        puts " Search your desired spells by entering an effect"
+        puts " Search all spells by entering the word effect"
         puts ""
         @effect = gets.strip.downcase
         puts ""
